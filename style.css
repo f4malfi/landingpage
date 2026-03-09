@@ -1,0 +1,72 @@
+body {
+    display:flex;
+    flex-direction:column;
+    font-family: Roboto, sans-serif;
+    margin:0;
+}
+
+
+.header {
+    display:flex;
+    justify-content:space-between;
+    padding:5px 50px;
+    background-color:rgb(23, 71, 102);
+    align-items:center;
+}
+
+
+#image1 {
+    width:25px;
+}
+
+.logo {
+    font-size:24px;
+}
+
+.links {
+    display:flex;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    gap:16px;
+}
+
+a {
+    color:white;
+    text-decoration:none;
+    font-size:10px;
+}
+
+/* Hero section */
+
+.container1 {
+    background-color:rgb(23, 71, 102);
+    display:flex;
+    justify-content:space-between;
+    padding:5px 50px;
+    align-items:center;
+    color:white;
+}
+
+h1 {
+    margin:0;
+}
+
+#image2 {
+    width:200px;
+}
+
+.button {
+    background-color: #3882f6;
+    color:white;
+    padding:5px 10px;
+}
+
+
+/* 
+1. I can't get Roboto font to work for some reason..
+2. Dark background color provided doesnt work so I picked my own
+3. How do I target an image with a class or id?
+4. Make links white
+5. Make links no line or hyperlink
+6. How do i make the color continue to the edge? It seems to stop short
