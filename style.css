@@ -3,6 +3,7 @@ body {
     flex-direction:column;
     font-family: Roboto, sans-serif;
     margin:0;
+    font-size:
 }
 
 
@@ -42,7 +43,7 @@ a {
 .container1 {
     background-color:rgb(23, 71, 102);
     display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     padding:5px 50px;
     align-items:center;
     color:white;
@@ -59,14 +60,104 @@ h1 {
 .button {
     background-color: #3882f6;
     color:white;
-    padding:5px 10px;
+    padding:5px 25px;
+    border-radius:10px;
+    border-color:#3882f6;
+}
+
+/*Random Info Section */
+
+.container2 {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:50px;
+    flex-wrap:wrap;
+}
+
+.list3 {
+    display:flex;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    gap:100px;
+    align-items:center;
+    justify-content:center;
+    width:60px;
+
+}
+
+.header3 {
+    font-size:36px;
+    font-weight:900;
+}
+
+.numbers {
+    width:100px;
+}
+
+/*Quote section */
+
+.container3 {
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.quote {
+    font-style:italic;
+    display:flex;
+    justify-content:center;
+    font-size:36px;
+    font-weight:300;
+}
+
+.author {
+    display:flex;
+    justify-content:right;
 }
 
 
+/* Call to action */
+
+.container4 {
+    display:flex;
+    justify-content:center;
+    margin:50px 300px;
+    padding:16px 20px;
+    background-color: #3882f6;
+    color:white;
+    border-radius:10px;
+    gap:40px;
+}
+
+strong{
+    display:flex;
+}
+
+.buttonbottom {
+    padding:5px 25px;
+    border-style:solid;
+    border-color:white;
+    background-color: #3882f6;
+    color:white;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+/* Footer */
+
+.footer {
+    background-color:rgb(23, 71, 102);
+    text-align:center;
+    padding:15px;
+    margin:0;
+    color:white;
+}
 /* 
 1. I can't get Roboto font to work for some reason..
 2. Dark background color provided doesnt work so I picked my own
-3. How do I target an image with a class or id?
-4. Make links white
-5. Make links no line or hyperlink
-6. How do i make the color continue to the edge? It seems to stop short
+3. Not sure how to align subtext under pictures in random info sec.
+4. Not sure how to set the author to align to the center-right under the quote.
+5. Honestly not sure how the site should allign based on the finished image they provided.
+
+*/
